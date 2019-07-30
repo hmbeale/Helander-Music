@@ -1,10 +1,13 @@
 import React from 'react';
 
+import Footer from './footer.js'
+
 const About = () => (
-  <div className="aboutComp">
+    <div className="aboutComp">
     <h2>About</h2>
     This example shows how to use React Router!
-  </div>
+    <Footer />
+    </div>
 );
 
 export default About;

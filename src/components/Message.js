@@ -1,7 +1,12 @@
 import React from 'react';
+import Footer from './footer.js'
 
 const Message = ({ match }) => (
-  <h3 className="messageComp" >Message with ID {match.params.id}</h3>
+  <div className="messageComp">
+    <h3>Message with ID {match.params.id}</h3> 
+    <Footer /> 
+  </div>
+  
 );
 
 export default Message;
