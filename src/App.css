@@ -41,7 +41,7 @@ ul {
 }
 
 .menu {
-   background-color: grey;
+   
    margin-bottom: 20px;
    width: 100%; 
    height: 60px; 
@@ -72,7 +72,11 @@ ul {
 }
 
 .banner {
-  text-align: left
+  text-align: center
+}
+
+.bannerText {
+  font-size: 24px; 
 }
 /*
 .homeComp {
