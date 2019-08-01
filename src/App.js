@@ -9,13 +9,15 @@ import {
   Redirect
 } from 'react-router-dom';
 
-import Home from './components/Home';
-import About from './components/About';
-import Messages from './components/Messages';
+import Pricing from './components/Pricing.js';
+import About from './components/About.js';
+import Contact from './components/contact.js';
 import NavSpacer from './components/navSpacer.js'
 import Banner from './components/banner.js'
 import HLineSpacer from './components/hLineSpacer.js'
 import Menu from './components/menu.js'
+
+import Testimonials from './components/testimonials.js'
 
 class App extends Component {
   render() {
@@ -25,9 +27,9 @@ class App extends Component {
         <Menu /> 
         <div className="App-intro">
           <Switch>
-            <Route exact path="/"  component={Home} />
-            <Route path="/messages" component={Messages} />
-            <Route path="/about" component={About} />
+            <Route exact path="/"  component={About} />
+            <Route path="/messages" component={Testimonials} />
+            <Route path="/about" component={Contact} />
             <Redirect to="/" />
           </Switch>
         </div>

@@ -4,8 +4,8 @@ import NavSpacer from './navSpacer.js'
 
 const Banner = () => (
     <div className="banner">        
-        <p className="bannerText"> lorem ipsum </p>
-        <p className="bannerText"> dolor sit amet adipiscing</p>
+        <p className="bannerText1"> Helander </p>
+        <p className="bannerText2"> School of Music</p>
     </div>
 );
 

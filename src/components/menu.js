@@ -5,14 +5,13 @@ import { Link } from 'react-router-dom';
 
 const Menu = () => (
     <div className="menu">                   
-              <NavSpacer />
-              <button className="mainLink"> <Link to="/">foofoo</Link> </button>
-              <NavSpacer />
-              <button className="mainLink"> <Link to="/messages">foobar</Link> </button>
-              <NavSpacer />
-              <button className="mainLink"> <Link to="/about">foobaz</Link> </button>
-              <NavSpacer />
               
+              <button className="mainLink"> <Link to="/">About</Link> </button>
+              <NavSpacer />
+              <button className="mainLink"> <Link to="/messages">Testimonials</Link> </button>
+              <NavSpacer />
+              <button className="mainLink"> <Link to="/about">Contact</Link> </button>
+           
         </div>
 );
 
